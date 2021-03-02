@@ -1,17 +1,22 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
-
-int main() {
-    int a,b,temp;
-    cout<<"enter the number before swapping"<<endl;
-    cin>>a>>b;
-    cout<<"a="<<a<<"\n b="<<b<<endl;
+int main()
+{
+    system("cls");
+    
+    int a=5,b=10,temp;
+    cout<<"before swapping"<<endl;
+    cout<<"a="<<a<<",b="<<b<<endl;
     temp=a;
     a=b;
     b=temp;
-    cout<<"after swapping"<<endl;
-    cout<<"a="<<a<<"\n b="<<b<<endl;
-
+    cout<<"\nafterswapping"<<endl;
+    cout<<"a="<<a<<",b="<<b<<endl;
+    
     return 0;
 
 }
+
+
+
