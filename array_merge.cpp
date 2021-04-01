@@ -67,7 +67,7 @@ int main()
             k++;
         }
     }
-    //cout<<"i="<<i<<"j="<<j;
+ 
     while(i<m)
     {
         c[k]=a[i];
@@ -80,7 +80,7 @@ int main()
         j++;
         k++;
     }
-    //cout<<"i="<<i<<"j="<<j<<"k="<<k<<"\n";
+    
     cout<<"ordered merged array of the given two arrays :";
     for(int i=0;i<k;i++)
     {
