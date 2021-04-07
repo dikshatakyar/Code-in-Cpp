@@ -10,13 +10,13 @@ int main() {
     
     
     if(n2>n1) {
-    for( int i=1;i<=n1;++i) {
+    for( int i=2;i<=n1;++i) {
         if(n1%i==0 && n2%i==0) {
             hcf=i; }
         }
     }
     else {
-        for( int i=1;i<=n2;++i) {
+        for( int i=2;i<=n2;++i) {
         if(n1%i==0 && n2%i==0) {
             hcf=i; }
     }
