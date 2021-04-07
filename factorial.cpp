@@ -7,7 +7,7 @@ int main()
   cout<<"enter the number for factorial"<<endl;
   cin>>n;
   int ans=1;
-  for(i=1;i<=n;++i) {
+  for(i=2;i<=n;++i) {
       ans*=i;
       
   }
