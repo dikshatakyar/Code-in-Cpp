@@ -8,10 +8,10 @@ while(s<=e) {
          return mid;
     }
      else if(arr[mid]>k) {
-         return binary(arr,k,mid+1,e);
+         return binary(arr,k,s,mid-1);
      }
      else {
-        return binary(arr,k,s,mid-1);
+        return binary(arr,k,mid+1,e);
      }     
 }
 return -1;
