@@ -28,6 +28,6 @@ for(int i=0;i<n;++i) {
 cout<<"enter key ? \n";
 int k;
 cin>>k;
-cout<<binary(arr,k,0,n-1);
+cout<<binary(arr,k,0,n);
     return 0;
 }
