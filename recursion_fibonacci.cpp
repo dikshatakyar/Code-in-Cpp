@@ -18,10 +18,8 @@ int main() {
    return 0;
 }
 
-
 //this codes prints the fibonacci series:
 #include <iostream>
-
 using namespace std;
 
 int fib(int n){
